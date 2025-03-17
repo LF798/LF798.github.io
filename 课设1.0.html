@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WeGame</title>
+	<link rel="stylesheet" href="css1/style3.css"/>
+
+		
+</head>
+<style >
+
+</style>
+
+<body>
+	
+                       
+	<div class="c">
+		<img src="images/aaa.jpg" alt="错误" width="1530px" height="1000px">
+	</div>
+	<div>
+		<div class="a">
+			<div class="b">
+				<a href="https://www.wegame.com.cn/"><img src="1.png" alt="错误"width="200px" height="80px"></a>
+			</div>
+			<div class="e">
+				<p>
+					<a href="">商店</a>
+					<a href="">客户端</a>
+					<a href="">移动端</a>
+					<a href="">翼计划</a>
+					<a href="">帮助反馈</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="denglu">
+		<a href="#0">登录</a>
+	</div>
+	
+	<div class="abc">
+	<div class="f">
+		<p>
+			<a href="">精选</a>
+			<a href="">单机</a>
+			<a href="">网游</a>
+			<a href="">测试专区</a>
+		</p>
+		
+<div class="menu">   <!--整个菜单被看作一个项目列表-->
+	<ul class="menu">   
+		<li onMouseOver="displaySubMenu(this)" onMouseOut="hideSubMenu(this)"> 
+			<a href="#">所有游戏▽</a> 
+			<ul><li><a href="qq飞车.html">qq飞车</a></li> 
+				<li><a href="人类一败涂地.html">人类一败涂地</a></li> 
+				<li><a href="英雄联盟.html">英雄联盟</a></li>
+				<li><a href="和平精英.html">和平精英</a></li>
+				<li><a href="Bangtan.html">Bangtan</a></li>
+			</ul></li> 
+</div>
+<div class="qwe">
+		<input type="" name="" id="" value="老师真帅" /><button><a href="">搜索</a></button>	
+</div>		
+	</div>
+	</div>
+
+<script type="text/javascript" src="js/babyzone.js"></script>
+
+<script>
+    window.onload = function() {
+        //调用第三方JS脚本里定义的对象及其方法，第1参数为图片数量
+		babyzone.scroll(5, "banner_list", "list", "banner_info"); //本方法含4个参数
+    }
+</script>
+<script>
+	$('#login').click(function(){  //登录处理
+		$('#reg').hide();
+		$('#cover').show();  //显示遮罩				
+	});
+</script>
+
+<div id="banner">
+			<div id="banner_list">
+					<a href="#"><img src="images/111.jpg" width="1000px" height="600px" alt=""></a>
+					<a href="#"><img src="images/112.jpg" width="1000px" height="600px" alt=""></a>
+					<a href="#"><img src="images/113.jpg" width="1000px" height="600px" alt=""></a>
+					<a href="#"><img src="images/114.jpg" width="1000px" height="600px" alt=""></a>
+					<a href="#"><img src="images/115.jpg" width="1000px" height="600px" alt=""></a>
+					
+				<ul id="list"></ul> 
+				<a href="#" id="banner_info"></a>
+			</div>
+		</div>
+
+<div class="gundong">
+	<img src="images/116.png" alt="错误">
+</div>
+<div class="beijing">
+	<div class="hh">
+	下载客户端：<a href="#"><img src="images/7.png" alt="错误"></a>
+	</div>
+	<div class="hhh">
+		官方渠道：<a href="#"><img src="images/8.png" alt="错误"></a>
+	</div>
+	<div class="hhhh">
+		友情链接：qq阅读&nbsp;&nbsp;&nbsp;腾讯GWB
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯动漫&nbsp;&nbsp;&nbsp;腾讯视频
+	</div>
+</div>
+<script> 
+	function displaySubMenu(li) { 
+        //获取主菜单项里的列表
+		var subMenu = li.getElementsByTagName("ul")[0]; 
+        //在 JS脚本里改变对象的CSS样式属性
+		subMenu.style.display = "block"; //显示子菜单
+	} 
+	function hideSubMenu(li) {
+		var subMenu = li.getElementsByTagName("ul")[0];   
+		subMenu.style.display = "none"; //隐藏子菜单
+	} 
+</script> 
+<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+          hidden="ture"  	src="images/2.mp3">
+      		
+	</audio>
+</body>
+</html>

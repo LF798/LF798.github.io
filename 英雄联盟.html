@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>英雄联盟</title>
+	<link rel="stylesheet" href="css1/style7.css"/>
+
+</head>
+<style>
+	@keyframes myfirst
+	{
+		0% {background-image:url(images/b1.gif); }
+		25% {background-image:url(images/b1.gif); }
+		75% {background-image:url(images/b1.gif); }
+		100% {background-image:url(images/b1.gif); }
+	}
+</style>
+<body>
+	<div class="dabeijing">
+		<video  autoplay="autoplay" loop="ture"  style="width: 100%;">
+			<source src="images/v1.mp4">
+		</video>
+	</div>
+	
+	
+	<div class="wenzi">
+		<p>万事都有选择，哪怕是真相也不例外。</p>
+		<p>那个女孩靠的太近了！</p>
+	</div>
+	<div class="liebiao">
+		<ul><div>
+			<li><a href="">游戏资料</a>
+				<p>GAME INFO</p>
+				<ul>
+					<div>
+					<li><a href="">游戏下载</a></li>
+					<li><a href="">新手指引</a></li>
+					<li><a href="">资料库</a></li>
+					</div>
+				</ul></li>
+			<li><a href="">商城/合作</a>
+				<p>STORE</p>
+				<ul>
+					<div>
+					<li><a href="">点卷充值</a></li>
+					<li><a href="">道聚城</a></li>
+					<li><a href="">周边商城</a></li></div>
+				</ul></li>
+			<li><a href="">社区互动</a>
+				<P>COMMUNITY</P>
+				<ul><div>
+					<li><a href="">视频中心</a></li>
+					<li><a href="">官方微信</a></li>
+					<li><a href="">官方微博</a></li></div>
+				</ul></li>
+			<li><a href="">赛事官网</a>
+				<P>ESPORTS</P>
+				<ul><div>
+					<li><a href="">LPL职业联赛</a></li>
+					<li><a href="">LDL发展联赛</a></li>
+					<li><a href="">全球总决赛</a></li></div>
+				</ul></li>
+			<li><a href="">自助系统</a>
+				<P>SYSTEM</P>
+				<ul><div>
+					<li><a href="">联系客服</a></li>
+					<li><a href="">专区系统</a></li>
+					<li><a href="">封号查询</a></li></div>
+				</ul></li>
+				</div>
+		</ul>
+	</div>
+<div id="banner">	
+	<div id="banner_list">  <!--第2参数为div名，其内包含若干个图像链接-->
+		<a href="#"><img src="images/c1.png" width=600 height=400 /></a>
+		<a href="#"><img src="images/c2.png" width=600 height=400 /></a>
+	    <a href="#"><img src="images/c3.png" width=600 height=400 /></a>
+	    <a href="#"><img src="images/c4.png" width=600 height=400 /></a>
+	    <a href="#"><img src="images/c5.png" width=600 height=400 /></a></div>
+	<ul id="list"></ul>  <!--图片序号，项目列表对象标识为第3参数-->
+	<a href="#" id="banner_info"></a>   <!--超链接对象标识为第4参数-->
+</div>
+<div class="sp">
+	<h1>视频中心</h1>
+</div>
+        <div class="down">
+		<a href="#123">下载游戏</a>
+		</div>
+     
+      <div class="zuo">
+      	<img src="images/1111.png" width="500px" height="100px" alt="1">
+      </div>
+      <div class="you">
+      	<img src="images/2222.png" width="500px" height="100px" alt="2">
+      </div>
+      <div class="zhanshi">
+      	<section>
+         <div><a href="#"><img src="images/sp1.png" alt="a"></a></div>
+         <div><a href="#"><img src="images/sp2.png" alt="s"></a></div>
+         <div><a href="#"><img src="images/sp3.png" alt="d"></a></div>
+         <div><a href="#"><img src="images/sp4.png" alt="f"></a></div>
+         <div><a href="#"><img src="images/sp5.png" alt="g"></a></div>
+         <div><a href="#"><img src="images/sp6.png" alt="h"></a></div>
+     	</section>
+      </div>
+    
+<script type="text/javascript" src="js/babyzone1.js"></script>
+
+<script>
+    window.onload = function() {
+        //调用第三方JS脚本里定义的对象及其方法，第1参数为图片数量
+		babyzone.scroll(5, "banner_list", "list", "banner_info"); //本方法含4个参数
+    }
+</script>
+</body>
+</html>
