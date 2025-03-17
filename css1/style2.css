@@ -1,0 +1,203 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{ 
+	font-size:18px; 
+	font-family: "微软雅黑";
+	
+    background-color: rgb(66,66,66);
+    
+}
+
+#header { 
+	position:relative; /*父层定位*/
+	background:rgba(0,0,0,0.5);
+	
+}
+#child{
+	position:absolute;
+	overflow: hidden;
+	text-align: center;
+	
+	top:0px;
+	height: 60px;
+	width: 2000px;	
+	background:rgba(66,66,66,0.5);
+	
+	
+}
+#child1{
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	top: 660px;
+	left: 1600px;
+	background:rgba(66,66,66,0.5);
+	color: rgb(255,69,0);
+	font-size: 20px;
+
+	}
+#child1 a{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	font-size: 24px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#child a{
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	font-size: 20px;
+	padding-top: 15px;
+	
+	
+
+}
+#child a:hover{
+	background-color: rgb(0,0,0,0.5);
+
+}
+#child2{
+		position: absolute;
+		margin-right: 0px;
+		top: 60px;
+		
+	}	
+
+
+#first{
+	color: white;
+	margin-top: 10px;
+}
+#first img{
+	height: 300px;
+	width: 180px;
+	margin: 0 5px;
+
+}
+#second{
+	color: white;
+	float:left; 
+	width:780px; 
+	text-align:left;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: rgba(0,0,0,0.5);
+	/*margin-top: 10px;*/
+}
+#third {
+	color:white;
+	float:right; 
+	width:200px; 
+	height: 200px;
+
+}
+#third img{
+	margin-top: 15px;
+	width: 200px;
+	height: 140px;
+}
+#four{
+	color: white;
+	margin-top: 10px;
+	
+}
+#five{
+	color:white;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 10px;
+	background-color: rgba(0,0,0,0.5);
+
+
+
+}
+#one {
+	margin:0 auto; 
+	width: 1000px; 	
+
+}
+#two{
+	float: right;
+}
+#a{
+	position: fixed;
+	top:500px;
+	left:10px;
+}
+
+#b{
+	float: left;
+	width:1000px; 
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 5px;
+	color: white;
+	margin-top: 15px;
+
+}
+/*#c{
+	float: left;
+	width:800px; 
+	text-align: left;
+	font-size: 16px;
+}*/
+#d img{
+	float: right;
+	height: 75px;
+	width: 110px;
+	margin: 0 auto;
+	font-size: 0;
+}
+#d img:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#e{
+	width: 1000px;
+	height: 100px;
+	margin-top: 40px;
+	
+
+}
+#e img{
+
+
+	margin-top: 30px;
+}
+a:link{
+	text-decoration: none;
+	color:white;
+}
+a:visited{
+	text-decoration: none;
+	color:white; 
+
+}
+
+a:hover{
+	text-decoration: none;
+	color:rgb(255,69,0);
+	/*font-size: 120%;*/
+	
+}
+a:action{
+	text-decoration: none;
+	color:white; 
+}
+
+
+#a img{
+	width: 195px;
+	height: 300px;
+}
