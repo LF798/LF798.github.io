@@ -1,0 +1,60 @@
+.top {
+		padding-top: 80px;
+	}
+
+	.top li {
+		list-style: none;/*消除li的点*/
+		width: 120px;
+		height: 100px;
+		float: left;
+	}
+	.top li a {
+		display: block;/*块级元素*/
+		text-align: center;/*居中*/
+		font-size: 16px;
+		color: white;
+		line-height: 35px;
+		text-decoration: none;/*消除下划线*/
+	}
+	.top li a#last {
+		display: block;
+		text-align: center;
+		font-size: 16px;
+		color: orange;
+		line-height: 35px;
+		text-decoration: underline;
+	}
+	.top li a:hover {
+		display: block;
+		text-align: center;
+		font-size: 16px;
+		color: orange;
+		line-height: 35px;
+		text-decoration: none;
+	}
+	.aa{
+		width: 1350px;
+        height: 500px;
+        background-color: white;
+        /*font-size: 12px;*/
+        padding-top: 50px;
+        padding-left: 150px;
+        display: flex;
+	}
+	.cc{
+		width: 1200px;
+        height: 100%;
+        flex: none;
+	}
+	.ee{
+		height: 100%;
+		flex: 1;
+	}
+	a:link{
+		text-decoration: none;
+		color: black;
+	}
+	a:hover{
+			text-decoration: underline;
+			color: blue;
+	}
