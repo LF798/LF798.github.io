@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body { 
+	font-size:18px; 
+	font-family: "微软雅黑";
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+	
+}
+#first{
+	position:relative;	
+}
+#second{
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	background-repeat: repeat-x;
+	top:0px;
+	height: 60px;
+	width: 2000px;	
+	background:rgba(66,66,66,0.5);
+}
+#second a{
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	font-size: 20px;
+	padding-top: 15px;
+}
+#second a:hover{
+	text-decoration: none;
+		color: rgb(238,87,0);
+		background-color: rgba(0,0,0,0.9);
+}	
+#third{
+	position: absolute;
+	margin-right: 0px;
+	margin-top: 60px;
+
+
+}
+#one{
+	width: 1010px;
+	margin:0 auto; 
+
+
+}
+#one1 img{
+	float: left;
+	width: 500px;
+	height: 250px;
+
+}
+#one2 img{
+	float: right;
+	width: 500px;
+	height: 250px;
+	margin-left: 10px;
+
+}
+#one3 img{
+	float: left;
+	width: 500px;
+	height: 250px;
+	margin-top: 10px;
+	}
+#one4 img{
+	float: right;
+	width: 500px;
+	height: 250px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#two{
+	width: 1010px;
+	height: 300px;
+	padding-top: 520px;
+	margin:0 auto;
+	position: absolute;
+
+
+
+}
+#two1{
+	width: 100px;
+	font-size: 24px;
+
+}
+#two2{
+	padding-top: 15px;
+}
+#two2 a{
+	text-align: center;
+	width: 220px;
+	height: 40px;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-left: 26px;
+	border-radius: 15px;
+
+}
+#two2 a:link{
+	background-color: rgba(66,66,66,0.5);
+
+}
+#two2 a:hover{
+	color: rgb(238,87,0);
+	background-color: rgba(0,0,0,0.5);
+}
+#t{
+	
+	width: 1010px;
+	height: 300px;
+	padding-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+#t1{
+
+	width: 1010px;
+	margin-right: 15px;
+	height: 200px;
+}
+
+#t2{
+	height: 30px;
+	
+}
+#t3 {
+	color: green;
+}
+
+#t4 {
+	color:red;
+}
+
+#three{
+	position: absolute;
+	text-align: center;
+	padding-top: 400px;
+	padding-bottom: 100px;
+	left: 450px;
+}
+#three a{
+	margin-left: 13px;
+	margin-right: 13px;
+
+}
+
+#three a:hover{
+	color :rgb(238,87,0);
+	
+}
+
+
+a{
+	display: inline-block;
+	
+}
+a:link{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+		}
+a:visited{
+		text-decoration: none;
+		color:white;
+		}
+/*a:hover{
+		text-decoration: none;
+		color: rgb(238,87,0);
+		background-color: rgba(0,0,0,0.9);
+		}*/
+a:active{
+		text-decoration: none;
+		color: white;
+		}
+#g{
+	position: fixed;
+	top:600px;
+	right:5px;
+}
+#g img{
+	width: 200px;
+	height: 150px;
+
+
+}
+#h{
+	padding-top: 400px;
+	
+	float: left;
+	width: 500px;
+	height: 1000px;
+	
+	
+}
+#h img{
+	width:400px; 
+	height:200px;
+	padding-top: 20px;
+}
+#m{
+	position: absolute;
+	width: 400px;
+	top: 120px;
+	left: 0px;
+	height: 1200px;
+	
+}
+#m img{
+	width: 400px;
+	height: 600px;
+	padding-top: 30px;
+}
+#n{
+	padding-top:400px;
+	font-size: 24px;
+	float:left; 
+	width: 500px;
+	height: 600px;
+}
+#n img{
+
+	padding-top: 20px;
+	width: 400px;
+	height: 600px;
+}
+#o{
+	float: left;
+	position: relative;
+	background-color: rgb(66,66,66);
+	width: 2000px;
+	height: 500px;
+	color: rgb(0,0,0);
+
+}
+#o1{
+	position: absolute;
+	left:470px; 
+	width: 500px;
+	height: 300px;
+	
+
+}
+
+#o2 img{
+	padding-top: 20px;
+}
+#o1 a{
+	padding-top: 10px;
+}
+#o1 a:hover{
+	color:rgb(238,87,0); 	
+}
+#o2{
+	position: absolute; 
+	left: 1000px;
+	width: 300px;
+	height: 300px;
+
+}
+#o1-1{
+	float: left;
+	width: 200px;
+	height: 300px;
+
+}
+#o1-2{
+	float: right;
+	width: 200px;
+	height: 300px;
+}
+
