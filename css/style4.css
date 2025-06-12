@@ -63,7 +63,7 @@
 
 #b{
 	position:absolute;
-	width: 400px; 	
+	width: 200px; 	
 	height: 250px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.5);
@@ -83,8 +83,8 @@
 }
 #c{
 	position:absolute;
-	margin-left: 500px;
-	width: 400px; 	
+	margin-left: 200px;
+	width: 200px; 	
 	height: 250px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.5);
@@ -164,7 +164,7 @@
 
 #b1{
 	position:absolute;
-	width: 400px; 
+	width: 200px; 
 	margin-top: 300px;	
 	height: 250px;
 	text-align: center;
@@ -190,9 +190,9 @@
 }
 #c1{
 	position:absolute;
-	margin-left: 500px;
+	margin-left: 200px;
 	margin-top: 300px;
-	width: 400px; 	
+	width: 200px; 	
 	height: 250px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.5);
