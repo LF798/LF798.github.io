@@ -2,10 +2,18 @@
 	padding: 0;
 	margin: 0;
 }
-#a{
-	top:180px;
+#a0{
+	top: 0px;
 	left: 0px;
 	position:relative;
+	width: 2500px; 	
+	height:2000px;
+	
+}
+#a{
+	top:180px;
+	left: 150px;
+	position:absolute;
 	width: 600px; 	
 	height:500px;
 	font-size:35px; 
@@ -16,8 +24,8 @@
 }
 #b{
 	top:180px;
-	left: 850px;
-	position:relative;
+	margin-left: 850px;
+	position:absolute;
 	width: 1000px; 	
 	height:500px;
 	font-size:35px; 
