@@ -6,11 +6,11 @@
 	top:180px;
 	left: 150px;
 	position:relative;
-	width: 600px; 	
+	width: 550px; 	
 	height:500px;
 	font-size:35px; 
 	font-family:'Comic Sans MS', cursive;
-	text-align: center;
+	text-align: left;
 	color:rgb(255,255,255);
 	
 }
