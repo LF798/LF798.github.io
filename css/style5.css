@@ -16,8 +16,10 @@
 	position:absolute;
 	width: 600px; 	
 	height:500px;
-	
-	
+	font-size:35px; 
+	font-family:'Comic Sans MS', cursive;
+	text-align: center;
+	color:rgb(255,255,255);
 }
 #b{
 	top:180px;
