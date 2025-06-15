@@ -14,6 +14,18 @@
 	color:rgb(255,255,255);
 	
 }
+#b{
+	top:180px;
+	left: 650px;
+	position:relative;
+	width: 500px; 	
+	height:500px;
+	font-size:35px; 
+	font-family:'Comic Sans MS', cursive;
+	text-align: center;
+	color:rgb(255,255,255);
+	
+}
 
 #a1{
 	top: 0px;
