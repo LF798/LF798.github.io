@@ -13,7 +13,7 @@
 #a{
 	top:180px;
 	left: 150px;
-	position:relative;
+	position:absolute;
 	width: 600px; 	
 	height:500px;
 	font-size:35px; 
@@ -25,7 +25,7 @@
 #b{
 	top:180px;
 	margin-left: 850px;
-	position:relative;
+	position:absolute;
 	width: 600px; 	
 	height: 800px;
 	font-size:35px; 
