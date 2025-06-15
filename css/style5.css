@@ -35,7 +35,12 @@
 	background-color:rgba(0,0,0,0.5)
 	
 }
-
+#b img{
+	
+	width: 508px; 	
+	height: 700px;
+	
+}
 #a1{
 	top: 0px;
 	left: 0px;
