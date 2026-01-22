@@ -2,23 +2,25 @@
 		padding: 0px;
 		margin: 0px;
 	}
+	body{
+		background-color: #000;
+		min-height: 100vh;
+	}
 	.a{
-		width: 1530px;
+		width: 100%;
+		max-width: 100%;
 		height: 80px;
 		background-color:black;
 		position: relative;
-	}
-	div{
-		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.b{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		border: none; 
-	}
-	.b a:hover{
-		
+		padding: 0px;
+		border: none;
+		position: absolute;
+		left: 20px;
 	}
 	
 	.e a{
@@ -31,11 +33,10 @@
 		
 	}
 	.e{
-		
-		padding-bottom: 10px;
-		padding-left: 10px;	
-		padding-right: 10px;
-		margin-left: 100px;
+		padding: 10px;
+		display: flex;
+		gap: 10px;
+		align-items: center;
 	}
 	.e a:link{
 		color: white;
@@ -55,23 +56,6 @@
 	.e a:active{
 		color: white;
 	}
-	.c{
-		position: absolute;
-	}
-	.f{
-		position: absolute;
-		padding-top: 0px;
-		margin-top: 0px;
-		margin-left:200px;
-		text-align: center;
-		font-size: 25px;
-	}
-	.abc{
-		position: relative;
-		width: 1530px;
-		height: 40px;
-		background-color: white;
-	}
 	/*.f p{
 		background-color: white;
 	}*/
@@ -88,12 +72,60 @@
 		text-decoration: none;
 	}
 	
+	#banner_container{
+		position: relative;
+		width: 100%;
+		max-width: 1400px;
+		margin: 50px auto;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 30px;
+	}
+	#game_links{
+		width: 200px;
+		background-color: rgba(255,255,255,0.1);
+		padding: 20px;
+		border-radius: 8px;
+		color: white;
+	}
+	#game_links h3{
+		color: #fff;
+		font-size: 24px;
+		margin-bottom: 20px;
+		text-align: center;
+		border-bottom: 2px solid orange;
+		padding-bottom: 10px;
+	}
+	#game_links ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	#game_links ul li{
+		margin: 15px 0;
+	}
+	#game_links ul li a{
+		color: rgba(255,255,255,0.8);
+		text-decoration: none;
+		font-size: 18px;
+		display: block;
+		padding: 10px;
+		border-radius: 4px;
+		transition: all 0.3s ease;
+	}
+	#game_links ul li a:hover{
+		background-color: rgba(255,255,255,0.2);
+		color: orange;
+		padding-left: 15px;
+	}
 	#banner {
 		position:relative; 
-		width:800px; height:600px;  
-		overflow:hidden; /*隐藏溢出部分*/
-		left: 200px;
-		
+		width: 100%;
+		max-width: 1000px;
+		height: 600px;  
+		overflow:hidden;
+		flex: 1;
 	}
 	#banner_info{  /*参数4*/
 		position:absolute;
@@ -104,14 +136,16 @@
 		/*堆叠顺序序值小*/
 	}
 	#banner_list a img{
-		width: 800px;
+		width: 100%;
 		height: 600px;
+		object-fit: cover;
 	}
 	#banner_list ul {
-		
 		position:absolute;
+		right: 0;
+		top: 0;
 		list-style-type:none;
-		z-index:1002;  /*堆叠顺序序值大*/
+		z-index:1002;
 		width: 190px;
 		height: 400px;
 		background:rgba(0,0,0,0.3);
@@ -138,6 +172,7 @@
 	}
 	#banner_list a{  /*不可去掉*/
 		position:absolute;
+		z-index: 1000;
 	}
 	#cover{
 		position: absolute;
@@ -157,8 +192,8 @@
 	}
 	.denglu{
 		position: absolute;
-		margin-left: 1400px;
-		margin-top: 20px;
+		right: 30px;
+		top: 25px;
 		font-size: 30px;
 		color: white;
 	}
@@ -181,57 +216,6 @@
 		border: 0px;
 		border-radius: 4px;
 	}
-	.menu{
-		position:absolute;
-		z-index: 1002;
-		top: 0.30px;
-		left: 140px;
-	}    
-	.menu ul li {
-		font-size:25px; /*设定菜单项文字的大小*/
-		list-style:none; /*设定无列表符号*/
-		float:left; /*并排*/
-		position:relative;
-		width:150px;
-		height:30px;
-		background:white;  /*主菜单项背景颜色为青色*/
-		line-height:30px;
-		text-align:center;  /*菜单项对齐方式*/
-		margin-left:0px;
-	} 
-	.menu ul li a:hover{
-		background:grey; /*鼠标位于主菜单项上时背景颜色变为深红色*/
-	}   
-	.menu ul li ul {
-	    display:none;  /*不显示子菜单*/
-	} 	
-	.menu ul li ul li {	
-	    font-size:13px; /*设定子菜单项文字的大小*/
-	    float:none;  /*取消并排*/
-		position:relative;
-	} 
-	.menu ul li a{
-		display:block;
-		text-decoration:none;
-		}    
-	.menu ul li ul li a:hover{
-		border:0;
-		border-bottom:1px solid #000;
-		background-color: grey; /*鼠标位于子菜单项上时背景颜色改变为黄色*/
-	}  
-	.f a:hover{
-		background-color: grey;
-	} 
-	.qwe{
-		position: absolute;
-		top: 0px;
-		left: 450px;
-	}
-	.qwe button{
-		position: absolute;
-		top: 5px;
-		left: 170px;
-	}
 	.gundong{
 		position: fixed;
 		right: 0px;
@@ -239,24 +223,35 @@
 		z-index: 1002;
 	}
 	.beijing{
-		width: 1530px;
-		height: 250px;
+		width: 100%;
+		height: auto;
+		min-height: 150px;
 		background-color: rgb(25,25,25);
 		position: relative;
 		color: white;
 		top: 250px;
+		padding: 40px 0;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 80px;
+		flex-wrap: wrap;
 	}
 	.hh{
 		position: relative;
-		left: 200px;
-		top: 10px;
+		text-align: center;
+		width: auto;
+		flex: 0 0 auto;
 	}
 	.hhh{
 		position: relative;
-		left: 400px;
+		text-align: center;
+		width: auto;
+		flex: 0 0 auto;
 	}
 	.hhhh{
 		position: relative;
-		left: 600px;
-		top: 50px;
+		text-align: center;
+		width: auto;
+		flex: 0 0 auto;
 	}

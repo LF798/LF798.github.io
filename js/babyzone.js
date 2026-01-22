@@ -9,17 +9,22 @@
 
 	function fadeIn(elem) {
 		setOpacity(elem, 0)
+		elem.style.pointerEvents = 'none';
 		for ( var i = 0; i < 20; i++) {
 			(function() {
 				var pos = i * 5;
 				setTimeout(function() {
 					setOpacity(elem, pos)
+					if (pos >= 100) {
+						elem.style.pointerEvents = 'auto';
+					}
 				}, i * 25);
 			})(i);
 		}
 	}
 
 	function fadeOut(elem) {
+		elem.style.pointerEvents = 'none';
 		for ( var i = 0; i <= 20; i++) {
 			(function() {
 				var pos = 100 - i * 5;
@@ -63,16 +68,32 @@
 			this.num[0].className="on";
 			//将除了第一张外的所有图片设置为透明
 			each(this.img,function(elem,idx,arr){
-				if (idx!=0) setOpacity(elem,0);
+				if (idx!=0) {
+					setOpacity(elem,0);
+					elem.style.pointerEvents = 'none';
+				} else {
+					elem.style.pointerEvents = 'auto';
+				}
 			});
 			
 			//为所有的li添加点击事件
+			var gameLinks = [
+				"qq飞车.html",
+				"人类一败涂地.html",
+				"英雄联盟.html",
+				"和平精英.html",
+				"Bangtan.html"
+			];
 			each(this.num,function(elem,idx,arr){
 				elem.onmouseenter=function(){
 					self.fade(idx,curIndex);
 					curIndex=idx;
 					targetIdx=idx;
 				}
+				elem.onclick=function(){
+					window.location.href = gameLinks[idx];
+				}
+				elem.style.cursor = 'pointer';
 			});	
 		},
 		fade:function(idx,lastIdx){

@@ -68,6 +68,13 @@
 	text-align: center;
 	background-color: rgba(0,0,0,0.5);
 }
+#b img{
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#b:hover img{
+	opacity: 1;
+}
 
 #b a{
 	display: inline-block;
@@ -92,8 +99,11 @@
 #c img{
 	width: 180px;
 	height: 185.4px;
-
-	
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#c:hover img{
+	opacity: 1;
 }
 #c a{
 	display: inline-block;
@@ -121,6 +131,11 @@
 	padding-top: 15px;
 	width: 170px;
 	height: 170px;
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#d:hover img{
+	opacity: 1;
 }
 #d a{
 	display: inline-block;
@@ -147,6 +162,11 @@
 	padding-top: 15px;
 	width: 170px;
 	height: 170px;
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#e:hover img{
+	opacity: 1;
 }
 #e a{
 	display: inline-block;
@@ -173,7 +193,11 @@
 #b1 img{
 	width: 170px;
 	height: 170px;
-	
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#b1:hover img{
+	opacity: 1;
 }
 #b1 a{
 	display: inline-block;
@@ -200,7 +224,11 @@
 #c1 img{
 	width: 180px;
 	height: 180px;
-	
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#c1:hover img{
+	opacity: 1;
 }
 #c1 a{
 	display: inline-block;
@@ -227,7 +255,11 @@
 #d1 img{
 	width: 170px;
 	height: 170px;
-	
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#d1:hover img{
+	opacity: 1;
 }
 #d1 a{
 	display: inline-block;
@@ -254,7 +286,11 @@
 #e1 img{
 	width: 170px;
 	height: 170px;
-	
+	opacity: 0.75;
+	transition: opacity 0.3s ease;
+}
+#e1:hover img{
+	opacity: 1;
 }
 #e1 a{
 	display: inline-block;

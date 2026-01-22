@@ -6,16 +6,20 @@
 	top: 0px;
 	left: 0px;
 	position:relative;
-	width: 1500px; 	
-	height: 700px;
-	
+	width: 100%; 	
+	max-width: 1500px;
+	height: auto;
+	min-height: 700px;
+	margin: 0 auto;
 }
 #a{
 	top:180px;
-	left: 200px;
+	left: 5%;
 	position:absolute;
-	width: 600px; 	
-	height:500px;
+	width: 45%; 	
+	max-width: 600px;
+	height:auto;
+	min-height:500px;
 	font-size:35px; 
 	font-family:'Comic Sans MS', cursive;
 	text-align: center;
@@ -23,17 +27,19 @@
 }
 #b{
 	top:180px;
-	margin-left: 1000px;
+	right: 5%;
 	position:absolute;
-	width: 600px; 	
-	height: 700px;
-
+	width: 45%; 	
+	max-width: 600px;
+	height: auto;
 }
 #b img{
-	
-	width: 508px; 	
-	height: 700px;
-	
+	width: 100%; 	
+	height: auto;
+	max-height: 700px;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 #a1{
 	top: 0px;
